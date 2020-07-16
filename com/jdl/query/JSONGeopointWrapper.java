@@ -1,5 +1,5 @@
 package com.jdl.Firestore.query;
-import io.google.firebase.firestore.GeoPoint;
+import com.google.firebase.firestore.GeoPoint;
 
 import java.util.Date;
 

@@ -1,7 +1,6 @@
 package com.jdl.Firestore.query;
 
-import io.google.firebase.firestore.Query;
-import android.util.Log;
+import com.google.firebase.firestore.Query;
 
 import org.json.JSONArray;
 import org.json.JSONException;

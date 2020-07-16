@@ -1,6 +1,6 @@
 package com.jdl.Firestore.query;
 
-import io.google.firebase.firestore.Query;
+import com.google.firebase.firestore.Query;
 
 public class StartAtQueryHandler implements QueryHandler {
     @Override

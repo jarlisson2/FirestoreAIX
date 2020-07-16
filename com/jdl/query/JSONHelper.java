@@ -1,7 +1,7 @@
 package com.jdl.Firestore.query;
 
-import io.google.firebase.Timestamp;
-import io.google.firebase.firestore.GeoPoint;
+import com.google.firebase.Timestamp;
+import com.google.firebase.firestore.GeoPoint;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

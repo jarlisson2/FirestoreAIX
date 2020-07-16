@@ -7,33 +7,33 @@ import android.support.annotation.Nullable;
 import android.support.annotation.WorkerThread;
 import android.util.Log;
 
-import io.google.android.gms.common.internal.MetadataValueReader;
-import io.google.android.gms.tasks.OnCompleteListener;
-import io.google.android.gms.tasks.OnFailureListener;
-import io.google.android.gms.tasks.OnSuccessListener;
-import io.google.android.gms.tasks.Task;
-import io.google.android.gms.tasks.Tasks;
-import io.google.firebase.FirebaseApp;
-import io.google.firebase.FirebaseOptions;
-import io.google.firebase.firestore.CollectionReference;
-import io.google.firebase.firestore.DocumentChange;
-import io.google.firebase.firestore.DocumentReference;
-import io.google.firebase.firestore.DocumentSnapshot;
-import io.google.firebase.firestore.EventListener;
-import io.google.firebase.firestore.FieldPath;
-import io.google.firebase.firestore.FirebaseFirestore;
-import io.google.firebase.firestore.FirebaseFirestoreException;
-import io.google.firebase.firestore.FirebaseFirestoreSettings;
-import io.google.firebase.firestore.ListenerRegistration;
-import io.google.firebase.firestore.Query;
+import com.google.android.gms.common.internal.MetadataValueReader;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.android.gms.tasks.Tasks;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.DocumentChange;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
+import com.google.firebase.firestore.FieldPath;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.firebase.firestore.FirebaseFirestoreSettings;
+import com.google.firebase.firestore.ListenerRegistration;
+import com.google.firebase.firestore.Query;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 
-import io.google.firebase.firestore.QueryDocumentSnapshot;
-import io.google.firebase.firestore.QuerySnapshot;
-import io.google.firebase.firestore.SetOptions;
-import io.google.firebase.firestore.WriteBatch;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
+import com.google.firebase.firestore.SetOptions;
+import com.google.firebase.firestore.WriteBatch;
 
 import com.jdl.Firestore.query.QueryHelper;
 

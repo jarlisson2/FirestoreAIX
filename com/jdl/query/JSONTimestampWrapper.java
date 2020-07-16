@@ -1,7 +1,5 @@
 package com.jdl.Firestore.query;
-import io.google.firebase.Timestamp;
-
-import java.util.Date;
+import com.google.firebase.Timestamp;
 
 public class JSONTimestampWrapper {
 

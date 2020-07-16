@@ -1,6 +1,6 @@
 package com.jdl.Firestore.query;
 
-import io.google.firebase.firestore.FieldValue;
+import com.google.firebase.firestore.FieldValue;
 
 public class FieldValueHelper {
 
